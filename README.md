@@ -421,6 +421,118 @@
         q: "Which of the following is a critical psychological characteristic of a successful entrepreneur?",
         o: ["Low tolerance for ambiguous situations", "High levels of professional persistence", "Complete aversion to taking calculated financial risks", "Total reliance on fixed state employment allocations"],
         a: 1,
+      },
+      {
+        q: "Forecasting is theoretically and practically described by managers as:",
+        o: ["A pure mechanical science with 100% mathematical precision", "More of an art requiring experienced judgment than a rigid science", "An illegal market manipulation practice banned by the WTO", "A process that completely removes the need for business planning"],
+        a: 1,
+        exp: "While it uses statistical data, forecasting requires managerial judgment to interpret qualitative shifts, making it an art and a science."
+      },
+      {
+        q: "Inaccurate or misleading business forecasts most frequently result from:",
+        o: ["Utilizing clean, error-free historical data parameters", "Faulty baseline assumptions and skewed data inputs", "Following the structural rules of the WTO and World Bank", "Deploying advanced computing software architectures"],
+        a: 1,
+        exp: "If the core assumptions about market behavior are flawed, the resulting forecast outputs will be systematically incorrect."
+      },
+      {
+        q: "Which functional level of strategy dictates what specific industries or product categories an organization will compete in?",
+        o: ["Corporate level strategy", "Business level strategy", "Functional level strategy", "Operational tier tactics"],
+        a: 0,
+        exp: "Corporate strategy determines the overall scope of the firm, managing acquisitions, diversifications, and market entries."
+      },
+      {
+        q: "Business level strategy is primarily concerned with establishing:",
+        o: ["The internal payroll structures of junior factory staff", "How the enterprise will effectively compete within a specific market segment", "The location coordinates of global organizational headquarters", "The legal compliance parameters forced by NAFDAC regulations"],
+        a: 1,
+        exp: "Business-level strategy focuses on positioning the firm against competitors using approaches like cost leadership or differentiation."
+      },
+      {
+        q: "What does a functional level strategy explicitly define for an enterprise?",
+        o: ["The long-term multi-decade mission statement of the global board", "Daily actions, department workflows, and tactical resource allocations", "The total public debt limits of sub-national state administrations", "The trade tariff boundaries of international regional integrations"],
+        a: 1,
+        exp: "Functional strategies translate high-level goals into specific blueprints for departments like marketing, finance, and manufacturing."
+      },
+      {
+        q: "The very first step in formulating an effective corporate strategy requires:",
+        o: ["Allocating millions in investment capital to random new projects", "Comprehensive definition of the organization's current state and environment", "Dissolving the existing board of directors and executive leadership teams", "Bypassing the construction of a corporate mission statement layout"],
+        a: 1,
+        exp: "Strategic planning begins by analyzing internal resources and external market realities to map out current conditions."
+      },
+      {
+        q: "Which of the following is a primary environmental indicator used to define a target market?",
+        o: ["Employee personal hobbies", "Demographic factors such as age, income, and population density", "The exact font styles chosen for internal training documents", "The color schemes of international transport regulatory flags"],
+        a: 1,
+        exp: "Demographics provide data on consumer volume, purchasing power, and demand profiles for target segments."
+      },
+      {
+        q: "Adaptation strategies are necessary for modern organizations because:",
+        o: ["The internal task and macro business environments are unstable and dynamic", "The government forces all private companies to change products annually", "The WTO completely eliminates international shipping tariff boundaries", "Corporate goals must never be kept realistic or time-bound"],
+        a: 0,
+        exp: "Firms must stay flexible to adjust their strategies when market variables, laws, or technologies shift suddenly."
+      },
+      {
+        q: "What element provides an organization with a clear, overarching picture of what it wants to achieve?",
+        o: ["A short-term daily financial ledger entry", "The corporate strategic mission and vision blueprint", "The list of monthly regulatory fines incurred by branches", "The personal political preferences of junior shift managers"],
+        a: 1,
+        exp: "The mission and vision serve as strategic touchstones, guiding long-term focus and goal alignment across the enterprise."
+      },
+      {
+        q: "Which of the following would NOT be listed as a feature of a robust, well-defined strategic mission?",
+        o: ["A definition of the firm's primary target consumers", "The specific annual profit margin percentage target of a single branch", "A statement of core organizational values and purpose", "The core product or service capabilities offered to the market"],
+        a: 1,
+        exp: "Specific short-term financial targets belong in tactical budgets, while strategic missions focus on broad, enduring corporate goals."
+      },
+      {
+        q: "Strategic objectives are engineered by management specifically to ensure:",
+        o: ["Long-term market competitiveness and corporate sustainability", "Complete exemption from local environmental compliance checks", "The elimination of all staff payroll expenses across branches", "Immediate access to non-repayable development grants from the IMF"],
+        a: 0,
+        exp: "Objectives convert a broad mission into specific performance targets, driving long-term survival and growth."
+      },
+      {
+        q: "Which of the following represents an accurate example of a strategic corporate objective?",
+        o: ["Sweeping the office floor before 8:00 AM daily", "Increasing overall annual sales growth rate by 15% within 24 months", "Changing the brand colors of internal document folders", "Hiring a single replacement driver for a regional logistics truck"],
+        a: 1,
+        exp: "This objective satisfies the SMART criteria: it is specific, measurable, realistic, and bounded by a clear 24-month timeline."
+      },
+      {
+        q: "A focused competitive strategy targets success by:",
+        o: ["Ignoring the actions of all competing firms inside the segment", "Gaining and maintaining a distinct advantage over industry competition", "Nationalizing the assets of external regional supply companies", "Operating entirely without gathering direct consumer market insights"],
+        a: 1,
+        exp: "Competitive strategy aims to establish a defensible market position, outperforming rivals through cost advantages or differentiation."
+      },
+      {
+        q: "Understanding competitor strengths and weaknesses helps a firm in:",
+        o: ["Eradicating its own need to pay corporate revenue taxes", "Defining and refining its own defensive or offensive competitive strategy", "Automating production lines without purchasing intermediate equipment", "Forcing the Central Bank to adjust national interest rate parameters"],
+        a: 1,
+        exp: "Analyzing rivals reveals market gaps and potential competitive threats, helping firms counter competitor actions."
+      },
+      {
+        q: "An example of a cost-leadership competitive strategy is:",
+        o: ["Manufacturing high-cost luxury goods for elite niche buyers", "Low-cost production combined with high-volume market sales", "Operating without any registered corporate governance structures", "Relying strictly on trade-by-barter patterns for raw materials"],
+        a: 1,
+        exp: "Cost leadership relies on efficient, high-volume production to offer lower prices while maintaining profitability."
+      },
+      {
+        q: "What must progressive organizations do before executing newly formulated strategies?",
+        o: ["Implement every single drafted strategy option simultaneously", "Systematically prioritize and select which strategies to execute based on resources", "Dissolve active operational communication lines across departments", "Wait for the World Bank to issue direct operational authorization updates"],
+        a: 1,
+        exp: "Firms must rank strategic choices by viability and resource availability, since capital and personnel are finite."
+      },
+      {
+        q: "Why may adaptive organizations need to adjust operational tactics during strategy implementation?",
+        o: ["Because the government bans the use of long-term planning frameworks", "Some selected methods or tactics may prove ineffective under real market pressures", "To intentionally cause internal communication breakdowns across branches", "Because the WTO mandates the eradication of all strategic objectives"],
+        a: 1,
+        exp: "Real-world execution exposes assumptions that fail to hold, requiring tactical adjustments to stay aligned with strategic goals."
+      },
+      {
+        q: "Which strategic step involves continuous tracking of how corporate plans are unfolding in practice?",
+        o: ["Evaluating progress, performance, and operational effectiveness", "Drafting an initial financial feasibility study from scratch", "Registering a new company identity name with the CAC", "Abandoning the organizational code of conduct parameters"],
+        a: 0,
+        exp: "Evaluation tracks variances between expected strategic goals and actual operational outputs."
+      },
+      {
+        q: "What element plays a crucial role in evaluating the performance of implemented corporate strategies?",
+        o: ["Ignoring consumer feedback mechanisms completely", "Structured operational feedback and real-time performance data metrics", "The personal political opinions of external media columnists", "Maintaining static, unaltered production quotas over multiple decades"],
         
     ];
 
