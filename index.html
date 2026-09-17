@@ -148,6 +148,17 @@
       <div class="subtitle">Management Principles & Macroeconomic Environment</div>
     </header>
 
+    <div class="tracker-bar">
+      <span id="progress-text">Question 1 of ...</span>
+      <span id="score-text">Score: 0</span>
+    </div>
+
+    <div id="quiz-wrapper"></div>
+
+    <div class="nav-controls">
+      <button id="prev-btn" class="nav-btn" onclick="moveQuestion(-1)" disabled>← Previous</button>
+      <button id="next-btn" class="nav-btn" onclick="moveQuestion(1)">Next →</button>
+    </div>
   </div>
 
   <script>
@@ -530,7 +541,7 @@
         a: 0,
         exp: "Evaluation tracks variances between expected strategic goals and actual operational outputs."
       },
-      {
+      ];
         q: "What element plays a crucial role in evaluating the performance of implemented corporate strategies?",
         o: ["Ignoring consumer feedback mechanisms completely", "Structured operational feedback and real-time performance data metrics", "The personal political opinions of external media columnists", "Maintaining static, unaltered production quotas over multiple decades"],
         
