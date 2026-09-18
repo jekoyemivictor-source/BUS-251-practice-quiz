@@ -349,7 +349,7 @@ function handleSelection(absoluteIdx, chosenIdx, container) {
     note.style.borderRadius = '6px';
     note.style.fontSize = '0.9rem';
     note.style.color = '#2c5282';
-    note.innerHTML = `<strong>Correct answer:</strong> ${item.o[item.a]}`;
+    note.innerHTML = `<strong>Correct answer:</strong> ${item.o[item.a]}<br><span style="display:block; margin-top:4px; font-weight:normal; color:#4a5568;">${item.e || 'No explanation available.'}</span>`;
     container.appendChild(note);
   }
 
