@@ -1,4 +1,4 @@
-const quizData = [
+const quizData = ]
   // === BATCH 1 ===
   { q: "What is the primary focus of Human Resource Management (HRM)?", o: ["Increasing market share", "Budget allocation", "Customer acquisition", "Deployment and development of employees"], a: 3 },
   { q: "Which of the following was the previous name for Human Resource Management?", o: ["Human Capital Office", "Human Development Unit", "Personnel Department", "People Operations"], a: 2 },
