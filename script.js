@@ -367,6 +367,14 @@ function handleSelection(absoluteIdx, chosenIdx, container) {
     incorrectCount++;
   }
   updateStickyProgressBar();
+  }
+
+  if (chosenIdx === item.a) {
+    correctCount++;
+  } else {
+    incorrectCount++;
+  }
+  updateStickyProgressBar();
 }
 
 function updateStickyProgressBar() {
