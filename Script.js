@@ -1,4 +1,3 @@
-// Database parsed and structured comprehensively from all your past question pages
 const quizData = [
     // === BATCH 1 ===
     { q: "What is the primary focus of Human Resource Management (HRM)?", o: ["Increasing market share", "Budget allocation", "Customer acquisition", "Deployment and development of employees"], a: 3 },
