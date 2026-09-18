@@ -339,6 +339,28 @@ function handleSelection(absoluteIdx, chosenIdx, container) {
     }
   });
 
+  // Show correct answer note if the user chose wrong
+  if (chosenIdx !== item.a) {
+    const note = document.createElement('div');
+    note.style.marginTop = '12px';
+    note.style.padding = '10px 12px';
+    note.style.background = '#ebf8ff';
+    note.style.borderLeft = '4px solid #3182ce';
+    note.style.borderRadius = '6px';
+    note.style.fontSize = '0.9rem';
+    note.style.color = '#2c5282';
+    note.innerHTML = `<strong>Correct answer:</strong> ${item.o[item.a]}`;
+    container.appendChild(note);
+  }
+
+  if (chosenIdx === item.a) {
+    correctCount++;
+  } else {
+    incorrectCount++;
+  }
+  updateStickyProgressBar();
+  }
+
   if (chosenIdx === item.a) {
     correctCount++;
   } else {
